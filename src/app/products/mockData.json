@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Canon EOS Rebel T7",
+    "price": 449.99,
+    "rating": 4,
+    "image": "/dslr.png",
+    "description": "A great starter DSLR for entry-level photography. Offers a 24.1MP sensor with built-in Wi-Fi and scene-intelligent auto mode for easy shooting.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "Canon",
+    "discount": 10,
+    "category": "DSLR Cameras",
+    "tags": ["entry-level", "Wi-Fi", "24MP", "easy-to-use"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Alice",
+        "rating": 5,
+        "date": "2024-03-15",
+        "comment": "Great camera for beginners, very easy to use and great image quality."
+      },
+      {
+        "reviewer": "Bob",
+        "rating": 4,
+        "date": "2024-04-02",
+        "comment": "Good value for the price, but could improve on autofocus speed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sony Alpha a6000",
+    "price": 649.99,
+    "rating": 4.5,
+    "image": "/dslr_1.png",
+    "description": "Compact mirrorless camera with 24MP APS-C sensor, fast autofocus, and 11fps continuous shooting.",
+    "bestSeller": false,
+    "deliveryDate": 4,
+    "brand": "Sony",
+    "discount": 5,
+    "category": "Mirrorless Cameras",
+    "tags": ["mirrorless", "compact", "fast autofocus"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black", "Silver"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Charlie",
+        "rating": 5,
+        "date": "2024-02-20",
+        "comment": "Super fast autofocus and great image quality for the price."
+      },
+      {
+        "reviewer": "Dana",
+        "rating": 4,
+        "date": "2024-05-01",
+        "comment": "Battery life could be better but otherwise excellent compact camera."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nikon D3500",
+    "price": 499.99,
+    "rating": 4.2,
+    "image": "/dslr_2.png",
+    "description": "Entry-level DSLR with a 24MP sensor, great battery life, and easy to use interface.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "Nikon",
+    "discount": 7,
+    "category": "DSLR Cameras",
+    "tags": ["DSLR", "entry-level", "battery life"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Eva",
+        "rating": 4,
+        "date": "2024-03-10",
+        "comment": "Excellent battery life and great for beginners."
+      },
+      {
+        "reviewer": "Frank",
+        "rating": 4,
+        "date": "2024-04-22",
+        "comment": "Build quality is solid and the image quality is good for the price."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "GoPro HERO9 Black",
+    "price": 399.99,
+    "rating": 4.6,
+    "image": "/dslr_4.png",
+    "description": "Action camera with 5K video, front display, and powerful stabilization.",
+    "bestSeller": true,
+    "deliveryDate": 2,
+    "brand": "GoPro",
+    "discount": 12,
+    "category": "Action Cameras",
+    "tags": ["5K video", "stabilization", "waterproof"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Grace",
+        "rating": 5,
+        "date": "2024-05-05",
+        "comment": "Amazing video quality and stabilization, perfect for outdoor adventures."
+      },
+      {
+        "reviewer": "Hank",
+        "rating": 4,
+        "date": "2024-05-10",
+        "comment": "Battery life is okay but the video performance is outstanding."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "DJI Mini 2",
+    "price": 449.99,
+    "rating": 4.8,
+    "image": "/dslr_5.png",
+    "description": "Compact drone with 4K video, 31-min flight time, and easy controls.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "DJI",
+    "discount": 15,
+    "category": "Drones",
+    "tags": ["4K", "compact", "easy controls"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Gray"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Ivy",
+        "rating": 5,
+        "date": "2024-04-15",
+        "comment": "Lightweight and powerful drone with great camera quality."
+      },
+      {
+        "reviewer": "Jake",
+        "rating": 4,
+        "date": "2024-04-20",
+        "comment": "Easy to fly and great for beginners."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fujifilm X-T30 II",
+    "price": 899.99,
+    "rating": 4.7,
+    "image": "/dslr_6.png",
+    "description": "Mirrorless camera with 26MP sensor, film simulation modes, and compact design.",
+    "bestSeller": false,
+    "deliveryDate": 5,
+    "brand": "Fujifilm",
+    "discount": 8,
+    "category": "Mirrorless Cameras",
+    "tags": ["mirrorless", "film simulation", "compact"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black", "Silver"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Karen",
+        "rating": 5,
+        "date": "2024-03-28",
+        "comment": "Beautiful color rendition and compact size, great for travel."
+      },
+      {
+        "reviewer": "Leo",
+        "rating": 4,
+        "date": "2024-04-07",
+        "comment": "Good autofocus but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Panasonic Lumix GH5",
+    "price": 1299.99,
+    "rating": 4.9,
+    "image": "/dslr_7.png",
+    "description": "Professional mirrorless camera with 4K 60p video, 20MP sensor, and advanced stabilization.",
+    "bestSeller": true,
+    "deliveryDate": 4,
+    "brand": "Panasonic",
+    "discount": 10,
+    "category": "Mirrorless Cameras",
+    "tags": ["4K 60p", "video", "stabilization"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Mona",
+        "rating": 5,
+        "date": "2024-01-30",
+        "comment": "Fantastic video quality, perfect for professional videographers."
+      },
+      {
+        "reviewer": "Nick",
+        "rating": 4,
+        "date": "2024-02-15",
+        "comment": "A bit bulky but delivers amazing footage."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sony RX100 VII",
+    "price": 1199.99,
+    "rating": 4.6,
+    "image": "/dslr_8.png",
+    "description": "Premium compact camera with 20MP sensor, 24-200mm zoom, and fast autofocus.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "Sony",
+    "discount": 6,
+    "category": "Compact Cameras",
+    "tags": ["compact", "zoom", "fast autofocus"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Olivia",
+        "rating": 5,
+        "date": "2024-04-10",
+        "comment": "Amazing image quality in a pocket-sized camera."
+      },
+      {
+        "reviewer": "Paul",
+        "rating": 4,
+        "date": "2024-04-18",
+        "comment": "Expensive but worth it for travel photography."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Olympus OM-D E-M10 Mark IV",
+    "price": 699.99,
+    "rating": 4.4,
+    "image": "/dslr_9.png",
+    "description": "Mirrorless camera with 20MP sensor, 5-axis stabilization, and compact design.",
+    "bestSeller": false,
+    "deliveryDate": 3,
+    "brand": "Olympus",
+    "discount": 7,
+    "category": "Mirrorless Cameras",
+    "tags": ["mirrorless", "stabilization", "compact"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black", "Silver"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Quincy",
+        "rating": 4,
+        "date": "2024-03-15",
+        "comment": "Great stabilization and compact size, perfect for beginners."
+      },
+      {
+        "reviewer": "Rachel",
+        "rating": 4,
+        "date": "2024-03-20",
+        "comment": "Good camera but the menu system can be confusing."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Canon PowerShot G7 X Mark III",
+    "price": 749.99,
+    "rating": 4.3,
+    "image": "/dslr_10.png",
+    "description": "Compact camera with 20MP sensor, 4K video, and flip-up touchscreen.",
+    "bestSeller": true,
+    "deliveryDate": 2,
+    "brand": "Canon",
+    "discount": 9,
+    "category": "Compact Cameras",
+    "tags": ["compact", "4K video", "touchscreen"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Sam",
+        "rating": 5,
+        "date": "2024-04-02",
+        "comment": "Perfect for vlogging and travel with great video quality."
+      },
+      {
+        "reviewer": "Tina",
+        "rating": 4,
+        "date": "2024-04-12",
+        "comment": "Good camera but battery life could be improved."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Blackmagic Pocket Cinema Camera 4K",
+    "price": 1295.99,
+    "rating": 4.7,
+    "image": "/dslr.png",
+    "description": "Professional 4K cinema camera with advanced color science and RAW recording.",
+    "bestSeller": false,
+    "deliveryDate": 5,
+    "brand": "Blackmagic",
+    "discount": 0,
+    "category": "Cinema Cameras",
+    "tags": ["4K", "RAW", "professional"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Uma",
+        "rating": 5,
+        "date": "2024-01-25",
+        "comment": "Outstanding video quality and color science."
+      },
+      {
+        "reviewer": "Victor",
+        "rating": 4,
+        "date": "2024-02-10",
+        "comment": "Great camera but requires some learning curve."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sigma 18-35mm f/1.8 DC HSM",
+    "price": 799.99,
+    "rating": 4.8,
+    "image": "/dslr_1.png",
+    "description": "Highly regarded zoom lens with constant f/1.8 aperture for APS-C cameras.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "Sigma",
+    "discount": 5,
+    "category": "Camera Lenses",
+    "tags": ["zoom lens", "f1.8", "APS-C"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Wendy",
+        "rating": 5,
+        "date": "2024-03-12",
+        "comment": "Sharp images and excellent low-light performance."
+      },
+      {
+        "reviewer": "Xander",
+        "rating": 4,
+        "date": "2024-04-01",
+        "comment": "Great lens but a bit heavy for everyday use."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tamron 28-75mm f/2.8 Di III RXD",
+    "price": 879.99,
+    "rating": 4.5,
+    "image": "/dslr_2.png",
+    "description": "Versatile zoom lens with fast aperture for Sony E-mount cameras.",
+    "bestSeller": false,
+    "deliveryDate": 4,
+    "brand": "Tamron",
+    "discount": 7,
+    "category": "Camera Lenses",
+    "tags": ["zoom lens", "f2.8", "Sony E-mount"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Yara",
+        "rating": 5,
+        "date": "2024-02-18",
+        "comment": "Great lens for portraits and everyday shooting."
+      },
+      {
+        "reviewer": "Zane",
+        "rating": 4,
+        "date": "2024-03-05",
+        "comment": "Good image quality but autofocus can be noisy."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Manfrotto Befree Advanced Tripod",
+    "price": 199.99,
+    "rating": 4.6,
+    "image": "/dslr_3.png",
+    "description": "Compact and sturdy tripod ideal for travel and outdoor photography.",
+    "bestSeller": true,
+    "deliveryDate": 2,
+    "brand": "Manfrotto",
+    "discount": 10,
+    "category": "Camera Accessories",
+    "tags": ["tripod", "compact", "sturdy"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black", "Gray"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Aaron",
+        "rating": 5,
+        "date": "2024-03-01",
+        "comment": "Lightweight and very sturdy for its size."
+      },
+      {
+        "reviewer": "Beth",
+        "rating": 4,
+        "date": "2024-03-10",
+        "comment": "Good for travel but legs could be a bit longer."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Rode VideoMic Pro+",
+    "price": 299.99,
+    "rating": 4.7,
+    "image": "/dslr_4.png",
+    "description": "High-quality shotgun microphone perfect for video recording.",
+    "bestSeller": true,
+    "deliveryDate": 3,
+    "brand": "Rode",
+    "discount": 8,
+    "category": "Audio Equipment",
+    "tags": ["microphone", "shotgun", "video"],
+    "availability": "In Stock",
+    "condition": "New",
+    "colors": ["Black"],
+    "shippingOptions": ["Standard", "Express"],
+    "reviews": [
+      {
+        "reviewer": "Carl",
+        "rating": 5,
+        "date": "2024-04-03",
+        "comment": "Clear sound and easy to mount on any camera."
+      },
+      {
+        "reviewer": "Dina",
+        "rating": 4,
+        "date": "2024-04-15",
+        "comment": "Great mic but battery life can be short."
+      }
+    ]
+  }
+]
